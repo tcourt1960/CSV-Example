@@ -37,7 +37,7 @@ public class CSVMin {
 		FileResource fr = new FileResource();
 		CSVRecord smallest = coldestHourInFile(fr.getCSVParser());
 		System.out.println("coldest temperature was " + smallest.get("TemperatureF") +
-				   " at " + smallest.get("TimeEST"));
+				   " at " + smallest.get("DateUTC"));
 	}
 
 }

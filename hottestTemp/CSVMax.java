@@ -1,3 +1,5 @@
+package hottestTemp;
+
 /**
  * Find the highest (hottest) temperature in a file of CSV weather data.
  * 
